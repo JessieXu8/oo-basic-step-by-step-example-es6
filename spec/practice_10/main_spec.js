@@ -5,10 +5,10 @@ const sinonChai = require("sinon-chai");
 const expect = chai.expect;
 chai.use(sinonChai);
 
-const Person = require("../../src/practice_10/person.js");
-const Student = require("../../src/practice_10/student.js");
-const Teacher = require("../../src/practice_10/teacher.js");
-const Class = require("../../src/practice_10/class.js");
+const {Person} = require("../../src/practice_10/person.js");
+const {Student} = require("../../src/practice_10/student.js");
+const {Teacher} = require("../../src/practice_10/teacher.js");
+const {Class} = require("../../src/practice_10/class.js");
 
 describe("Person", () => {
     it("should have field name and age", () => {
